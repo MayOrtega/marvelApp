@@ -7,8 +7,8 @@ import { map } from 'rxjs';
   providedIn: 'root'
 })
 export class CharactersApiService {
-  PUBLIC_KEY = '89c9ccfccd3ec94027fd455894137c74';
-  HASH = 'ba557a4343eab132fb69467b751218b6'
+  PUBLIC_KEY = 'a2fa95e3e927058d80203ddbbe8269f3';
+  HASH = '0e74afce0916eb27e1560c6ad8b3a870'
   URL_API = `https:gateway.marvel.com/v1/public/characters?ts=1&apikey=${this.PUBLIC_KEY}&hash=${this.HASH}`;
 
   constructor(private http: HttpClient) { }

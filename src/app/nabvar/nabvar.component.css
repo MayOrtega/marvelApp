@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 .sidenav-container {
-  height: 100%;
+  height: 10%;
+  width: 100%;
 }
 
 .sidenav {
@@ -8,7 +12,13 @@
 
 
 .mat-toolbar.mat-primary {
-  position: sticky;
+  position: fixed;
   top: 0;
-  z-index: 1;
+  font-family:  'Bebas Neue', cursive;
+  font-size: 2.5em;
+}
+
+.logo{
+  width: 8%;
+  padding: 1%;
 }

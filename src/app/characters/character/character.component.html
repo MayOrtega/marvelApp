@@ -1,1 +1,12 @@
-<p>character works!</p>
+<img
+  src="{{ character.thumbnail.path }}.{{ character.thumbnail.extension }}"
+  class="card-img-top"
+  alt="..."
+/>
+
+<div class="card-body">
+  <p class="card-text">Soy {{ character.name }}</p>
+  <a href="{{ character.urls[0].url }}" target="_blank" class="btn btn-info"
+    >Conóceme</a
+  >
+</div>

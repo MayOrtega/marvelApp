@@ -1,3 +1,5 @@
-<p *ngFor="let character of allCharacters | async">
-    {{character | json}}
-</p>
+<div class="container container-card">
+<div class="card row" style="background-color: #424242; color:white; width: 20%; padding: 2px;" *ngFor="let character of allCharacters | async">
+    <app-character [character]="character"></app-character>
+</div>
+

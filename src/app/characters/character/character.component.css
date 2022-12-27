@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,700&display=swap');
+
+.container-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+
+.card-img-top{
+    min-height: 280px;
+    max-width: 280px;
+    
+}
+
+.btn-info{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: black;
+}
